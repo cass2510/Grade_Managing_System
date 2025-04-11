@@ -126,6 +126,7 @@ class Classroom {
 ```cpp
 ofstream logFile("Grade.txt", ios::out | ios::trunc);
 ...
+```cpp
 system("start Grade.txt"); // Windows 전용
 ```
 
